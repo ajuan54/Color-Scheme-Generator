@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Color Scheme Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <input type="color" id="head" value="#e66465" />
+        <select name="myDropdown" id="dropDown-content">
+          <option value="monochrome">Monochrome</option>
+          <option value="monochrome-dark">Monochrome-Dark</option>
+          <option value="monochrome-light">Monochrome-Light</option>
+          <option value="analogic">Analogic</option>
+          <option value="complement">Complement</option>
+          <option value="analogic-complement">Analogic-Complement</option>
+          <option value="triad">Triad</option>
+        </select>
+        <button id="getColorBtn">Get color scheme</button>
+      </div>
+      <div id="colors">
+        <div class="color-value">
+          <img
+            class="color-img"
+            src="https://www.thecolorapi.com/id?format=svg&amp;named=false&amp;hex=AC1F20"
+          />
+          <h3>#AC1F20</h3>
+        </div>
+        <div class="color-value">
+          <img
+            class="color-img"
+            src="https://www.thecolorapi.com/id?format=svg&amp;named=false&amp;hex=D82526"
+          />
+          <h3>#D82526</h3>
+        </div>
+        <div class="color-value">
+          <img
+            class="color-img"
+            src="https://www.thecolorapi.com/id?format=svg&amp;named=false&amp;hex=E24F50"
+          />
+          <h3>#E24F50</h3>
+        </div>
+        <div class="color-value">
+          <img
+            class="color-img"
+            src="https://www.thecolorapi.com/id?format=svg&amp;named=false&amp;hex=EA7A7A"
+          />
+          <h3>#EA7A7A</h3>
+        </div>
+        <div class="color-value">
+          <img
+            class="color-img"
+            src="https://www.thecolorapi.com/id?format=svg&amp;named=false&amp;hex=F1A5A6"
+          />
+          <h3>#F1A5A6</h3>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
